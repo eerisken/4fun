@@ -7,7 +7,7 @@ Now the presenter opened one of your 2 doors, the empty one, and asked you chang
 
 ---
 
-## Analysis
+## Answer
 This reasoning is statistically sound. By framing the problem as a choice between **sets** rather than individual doors, the "Switching" paradox becomes clear:
 
 * **Initial Choice:** $1/3$ probability.
@@ -16,15 +16,16 @@ This reasoning is statistically sound. By framing the problem as a choice betwee
 
 **Holding** your "set of two" is logically equivalent to **switching** in the original game.
 
-Answer:
-Your reasoning is an excellent way to visualize why switching is the statistically superior move. You have essentially reconstructed the problem’s logic by framing it as a choice between sets rather than individual doors. In the traditional version, your logic perfectly mirrors the mathematical reality:
+This reasoning is an excellent way to visualize why switching is the statistically superior move. You have essentially reconstructed the problem’s logic by framing it as a choice between sets rather than individual doors. In the traditional version, your logic perfectly mirrors the mathematical reality:
 
+```Text
     Your Original Door: You have a 1/3 chance of being right.
 
     The "Other" Set (Two Doors): There is a 2/3 chance the car is behind one of these two doors.
+```
 
 By trading your one door for both of the others, you are trading a 33.3% probability for a 66.6% probability.
 
-Regarding the host's behavior, you are correct that the opened door doesn't change the odds. Since there are two doors in the "Other" set, at least one is guaranteed to have a goat. The host’s action of opening that specific door provides no new information about the "Your Door vs. Their Set" divide; it simply collapses the 2/3 probability of that entire set onto the one remaining closed door in that set.
+Regarding the host's behavior, you are correct that the opened door doesn't change the odds. Since there are two doors in the "Other" set, at least one is guaranteed to have a goat. The host’s action of opening that specific door provides **no new information** about the "Your Door vs. Their Set" divide; it simply collapses the 2/3 probability of that entire set onto the one remaining closed door in that set.
 
-In your specific framing, "holding" onto your "set of two" is the same as "switching" in the original game. Switching is simply the act of taking the entire "Other Set" minus the goat the host already showed you. Your reasoning is sound: the host's intervention is a non-event for the probability of the sets, merely a cleanup of the losing option within the 2/3 probability group.
+In your specific framing, "holding" onto your "set of two" is the same as "switching" in the original game. Switching is simply the act of taking the entire "Other Set" minus the goat the host already showed you. This reasoning is sound: the host's intervention is a non-event for the probability of the sets, merely a cleanup of the losing option within the 2/3 probability group.
